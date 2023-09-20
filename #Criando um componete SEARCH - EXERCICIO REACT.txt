@@ -1,0 +1,82 @@
+#Criar um componente SEARCH
+#importar o pesquisa la no APP
+
+import o styled component
+criar o componente pesquisa 
+	index.js
+	 -criar uma funcao chamado pesquisa
+		return (
+		<section>
+		H2 - JA SABE POR ONDE COMECAR
+		H3 ENCONTRE SEU LIVRO NA NOSSA ESTANTE
+		input placeholder  "pesquisa sua proxima leitura"
+		</section>
+		
+)
+
+exporta esse diabo, expor default pesquisa
+
+
+
+#CRIAR O STYLED COMPONENTE DO INPUT #que inferno
+
+criar uma nova pasta dentro de componente 
+
+pasta 
+	input
+
+	importar o styled componente
+	
+	const Input = syled.input `
+	order: 1px solid #FFF;
+        background: transparent;
+        border: 1px solid #FFF;
+        padding: 20px 140px;
+        border-radius: 50px;
+        width: 200px;
+        color: #FFF;
+        font-size: 16px;
+        margin-bottom: 10px;
+
+        &::placeholder {
+                color: #FFF;
+                font-size: 16px;
+		
+`
+
+nao vaaai esquecer de exportar de novo backend é tudo burro! export default Input
+
+
+#REFATORAR O COMPONENTE PESQUISAR
+
+importar o input para dentro do componente pesquisa
+
+substituir o input html pelo Input do REACT
+
+
+#REFATORAR O SECTION
+
+const pesquisaContainer = styled.section `
+background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);
+        color: #FFF;
+        text-align: center;
+        padding: 85px 0;
+        height: 270px;
+        width: 100%;
+
+`
+
+#REFATORAR  O TITULO Da desgraca da barra de pesquisa!
+
+	color: #FFF;
+        font-size: 36px;
+        text-align: center;
+        width: 100%;
+#aaa nao esquece do subtitulo é só! pouca coisa voce se vira!
+
+ font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 40px;
+
+#conferir essa desgraca la no figma e xingar tudo os DESIGN!!
+
